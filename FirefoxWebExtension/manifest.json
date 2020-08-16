@@ -1,0 +1,32 @@
+{
+  "manifest_version" : 2,
+  "name": "தமிழிணையம் - சொல் பேசி",
+  "version" : "0.0.1",
+  "description" : "Tamil TTS Firefox Extension developed for TVA, at SSN Institutions",
+  "browser_action":
+  {
+    "default_icon":
+    {
+      "19": "images/thamizhinayam_logo_small.png"
+    },
+    "default_title": "தமிழிணையம் - சொல் பேசி"
+  },
+  "icons":
+  {
+    "16": "images/thamizhinayam_logo_small.png",
+    "48": "images/thamizhinayam_logo_medium.png",
+    "128": "images/thamizhinayam_logo_large.png"
+  },
+  "background":
+  {
+    "page": "background.html"
+  },
+
+  "permissions":
+  [ //permitted to access following pages
+    "http://*/*",
+    "https://*/*",
+    "contextMenus",
+    "tabs"
+  ]
+}
